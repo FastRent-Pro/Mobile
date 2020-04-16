@@ -1,9 +1,27 @@
 import React, { Component } from "react";
 
-import { Container } from "./Styles";
+import { Container, ContainerDown, ContainerUp, CarImage } from "./Styles";
+
+import { CadastroButtom } from "../../../Components/CadastroButtom";
+import { LoginButtom } from "../../../Components/LoginButton";
+import { TextButtom } from "../../../Components/TextButtom";
 
 export default class Home extends Component {
   render() {
-    return <Container />;
+    const { navigate } = this.props.navigation;
+    return (
+      <Container>
+        <ContainerUp></ContainerUp>
+        <ContainerDown>
+          <CarImage />
+          <CadastroButtom onPress={() => navigate("Cadastro")}>
+            <TextButtom>Cadastrar</TextButtom>
+          </CadastroButtom>
+          <LoginButtom>
+            <TextButtom>Login</TextButtom>
+          </LoginButtom>
+        </ContainerDown>
+      </Container>
+    );
   }
 }
