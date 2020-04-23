@@ -15,11 +15,11 @@ import {
   GoogleButtom,
   FacebookLogo,
   GoogleLogo,
+  LeftText,
 } from "./Styles";
 
-export default class Cadastro extends Component {
+export default class Login extends Component {
   render() {
-    const { navigate } = this.props.navigation;
     return (
       <Container>
         <ContainerUp>
@@ -27,12 +27,12 @@ export default class Cadastro extends Component {
         </ContainerUp>
 
         <ContainerDown>
-          <TextCadastro>Cadastro</TextCadastro>
+          <TextCadastro>Login</TextCadastro>
           <CadastroInput placeholder="Email"></CadastroInput>
           <CadastroInput placeholder="Senha"></CadastroInput>
-          <CadastroInput placeholder="Confirmar Senha"></CadastroInput>
-          <LoginButtom onPress={() => navigate("TipoCliente")}>
-            <TextButtom>Cadastrar</TextButtom>
+          <LeftText>Esqueceu a senha?</LeftText>
+          <LoginButtom>
+            <TextButtom>Entrar</TextButtom>
           </LoginButtom>
           <FacebookButtom>
             <FacebookLogo />
