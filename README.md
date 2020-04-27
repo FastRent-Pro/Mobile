@@ -6,10 +6,9 @@ Com o FastRent você poderá disponibilizar seu carro para aluguel, assim como p
 
 Seu carro dos sonhos está à um click de distância.
 
-André Paes (paesandr@gmail.com);
-
-Arthur Rocha (arthursand1411@gmail.com);
-
-Isabelle Tavares (tavaresisaabelle@gmail.com);
-
-Matheus Botelho (mathibc03@gmail.com).
+| Participantes  | E-mail |
+| ------------- | ------------- |
+| André Paes  | paesandr@gmail.com  |
+| Arthur Rocha  | arthursand1411@gmail.com  |
+| Isabelle Tavares  | tavaresisaabelle@gmail.com  |
+| Matheus Botelho  | mathibc03@gmail.com  |
