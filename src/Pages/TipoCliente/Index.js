@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { ScrollView } from 'react-native';
 import { LogoImage } from "../../../Components/Logo";
 
 import {
@@ -26,13 +26,14 @@ export default class TipoCliente extends Component {
         </ContainerUp>
 
         <ContainerDown>
+          <ScrollView>
           <TextQuestion>Com o FastRent você deseja:</TextQuestion>
 
-          <FirstOptionCard>
+          <FirstOptionCard onPress={() => navigate("Usuario")}>
             <FirstText>Alugar os Melhores Carros</FirstText>
             <CarOneOp />
           </FirstOptionCard>
-          <SecondOptionCard>
+          <SecondOptionCard onPress={() => navigate("Seguro")}>
             <SecondText>
               Anunciar Meu Carro e Receber{"\n"}as Melhores Ofertas
             </SecondText>
@@ -45,6 +46,7 @@ export default class TipoCliente extends Component {
             </SecondText>
             <CarSecOp />
           </ThirdOptionCard>
+          </ScrollView>
         </ContainerDown>
       </Container>
     );

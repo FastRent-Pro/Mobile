@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-
+import { ScrollView } from "react-native";
+import { LogoImage } from "../../../Components/Logo";
 import { LoginButtom } from "../../../Components/LoginButton";
 import { TextButtom } from "../../../Components/TextButtom";
 import {
   Container,
   ContainerUp,
   ContainerDown,
-  LogoImage,
   MainText,
   CadastroInput,
   SecondaryText,
@@ -22,6 +22,7 @@ export default class Empresa extends Component {
         </ContainerUp>
 
         <ContainerDown>
+          <ScrollView>
           <MainText>Complete o Cadastro da Sua Empresa</MainText>
           <CadastroInput placeholder="Nome da Empresa" />
           <CadastroInput placeholder="E-mail para Contato" />
@@ -33,6 +34,7 @@ export default class Empresa extends Component {
           <LoginButtom>
             <TextButtom>Enviar</TextButtom>
           </LoginButtom>
+          </ScrollView>
         </ContainerDown>
       </Container>
     );

@@ -1,20 +1,5 @@
 import styled from "styled-components";
 
-export const LogoImage = styled.Image.attrs({
-    source: require("../../../Images/logo.png"),
-    resizeMode: "contain",
-    position: "absolute",
-  })`
-    left: 70px;
-    top: 50px;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    width: 65%;
-    height: 65%;
-  `;
-  
-
 export const Container = styled.View`
   flex: 1;
   background-color: #f4f6f6;
@@ -32,6 +17,15 @@ export const ContainerDown = styled.View`
   flex: 3.7;
   background-color: #f4f6f6;
   flex-direction: column;
+`;
+
+export const OtherContainer = styled.View`
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  align-self: center;
+  margin-top: 80px;
+  flex-direction: row;
 `;
 
 export const TextQuestion = styled.Text`
@@ -119,7 +113,7 @@ export const LoginButtom = styled.TouchableOpacity`
   width: 320px;
   height: 50px;
   border-radius: 13px;
-  margin-top: 40px;
+  margin-top: 60px;
   margin-bottom: 30px;
   background-color: #646d74;
 `;

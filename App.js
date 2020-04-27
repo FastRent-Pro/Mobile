@@ -9,6 +9,7 @@ import TipoCliente from "./src/Pages/TipoCliente/Index";
 import Empresa from "./src/Pages/Empresa/Index";
 import Receber from "./src/Pages/Receber/Index";
 import Seguro from "./src/Pages/Seguro/Index";
+import Usuario from "./src/Pages/Usuario/Index";
 
 const Stack = createStackNavigator();
 
@@ -23,6 +24,7 @@ export default function App() {
         <Stack.Screen name="Empresa" component={Empresa} />
         <Stack.Screen name="Receber" component={Receber} />
         <Stack.Screen name="Seguro" component={Seguro} />
+        <Stack.Screen name="Usuario" component={Usuario} />
       </Stack.Navigator>
     </NavigationContainer>
   );

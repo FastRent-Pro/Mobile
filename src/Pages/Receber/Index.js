@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import { ScrollView, Switch } from 'react-native';
-
+import { LogoImage } from "../../../Components/Logo";
 import {TextButtom} from "../../../Components/TextButtom";
 
 import {
-  LogoImage,
   Container,
   ContainerUp,
   ContainerDown,
@@ -20,7 +19,7 @@ import {
   SecDivider,
 } from "./Styles";
 
-export default class TipoCliente extends Component {
+export default class Receber extends Component {
   constructor(props) {
     super(props);
     this.state = {switchValue: false}

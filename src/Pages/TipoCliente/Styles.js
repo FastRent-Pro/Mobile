@@ -1,12 +1,11 @@
 import styled from "styled-components";
-
 export const Container = styled.View`
   flex: 1;
   background-color: #f4f6f6;
 `;
 
 export const ContainerUp = styled.View`
-  flex: 2.3;
+  flex: 1.5;
   flex-direction: row;
   background-color: #a0b1bf;
   border-bottom-left-radius: 48px;
@@ -32,7 +31,7 @@ export const TextQuestion = styled.Text`
 
 export const FirstOptionCard = styled.TouchableOpacity`
   align-self: center;
-  margin-top: 80px;
+  margin-top: 60px;
   background-color: #ffff;
   flex-direction: row;
   height: 70px;
@@ -55,6 +54,7 @@ export const SecondOptionCard = styled.TouchableOpacity`
 export const ThirdOptionCard = styled.TouchableOpacity`
   align-self: center;
   margin-top: 50px;
+  margin-bottom: 10px;
   background-color: #bfa780;
   flex-direction: row;
   height: 70px;

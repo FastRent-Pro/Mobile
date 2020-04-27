@@ -1,22 +1,5 @@
 import styled from "styled-components";
 
-import { StyleSheet} from 'react-native';
-
-
-export const LogoImage = styled.Image.attrs({
-  source: require("../../../Images/logo.png"),
-  resizeMode: "contain",
-  position: "absolute",
-})`
-  left: 70px;
-  top: 50px;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-  width: 65%;
-  height: 65%;
-`;
-
 export const Container = styled.View`
   flex: 1;
   background-color: #f4f6f6;
