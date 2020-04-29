@@ -6,7 +6,7 @@ export const LogoImage = styled.Image.attrs({
   position: "absolute",
 })`
   left: 70px;
-  top: 100px;
+  top: 50px;
   justify-content: center;
   align-items: center;
   align-self: center;

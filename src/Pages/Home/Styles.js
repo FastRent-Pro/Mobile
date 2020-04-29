@@ -6,7 +6,7 @@ export const Container = styled.View`
 `;
 
 export const ContainerUp = styled.View`
-  flex: 3;
+  flex: 2.5;
   flex-direction: column;
   background-color: #a0b1bf;
   border-bottom-left-radius: 48px;
@@ -39,28 +39,29 @@ export const CarImage = styled.Image.attrs({
   position: "absolute",
 })`
   right: 0px;
-  top: -180px;
+  top: -120px;
   align-self: flex-end;
-  width: 60%;
-  height: 100%;
+  width: 50%;
+  height: 90%;
 `;
 
 export const UpBall = styled.View`
   background-color: #b9bdc0;
+  margin-bottom: 20;
   right: 100px;
-  bottom: 130px;
-  height: 290px;
-  width: 330px;
+  bottom: 100px;
+  height: 240px;
+  width: 255px;
   align-self: flex-start;
-  border-radius: 400px;
+  border-radius: 300px;
 `;
 
 export const DownBall = styled.View`
   background-color: #646d74;
   right: 140px;
-  height: 270px;
-  width: 270px;
-  top: 30px;
+  height: 240px;
+  width: 240px;
+  top: 70px;
   align-self: flex-end;
   border-radius: 200px;
 `;
@@ -71,7 +72,7 @@ export const LogoImage = styled.Image.attrs({
   position: "absolute",
 })`
   left: 70px;
-  top: 120px;
+  top: 100px;
   justify-content: center;
   align-items: center;
   align-self: center;

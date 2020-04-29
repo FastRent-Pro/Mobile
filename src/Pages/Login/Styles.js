@@ -6,7 +6,7 @@ export const Container = styled.View`
 `;
 
 export const ContainerUp = styled.View`
-  flex: 2.3;
+  flex: 1.5;
   flex-direction: row;
   background-color: #a0b1bf;
   border-bottom-left-radius: 48px;
@@ -76,6 +76,7 @@ export const GoogleButtom = styled.TouchableOpacity`
   height: 50px;
   border-radius: 13px;
   margin-top: 10px;
+  margin-bottom: 10px;
   background-color: #ffffff;
 `;
 

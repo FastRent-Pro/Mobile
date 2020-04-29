@@ -19,19 +19,6 @@ export const ContainerDown = styled.View`
   flex-direction: column;
 `;
 
-export const LogoImage = styled.Image.attrs({
-  source: require("../../../Images/logo.png"),
-  resizeMode: "contain",
-  position: "absolute",
-})`
-  left: 70px;
-  top: 60px;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-  width: 65%;
-  height: 65%;
-`;
 
 export const MainText = styled.Text`
   justify-content: center;

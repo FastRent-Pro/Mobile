@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 export const Container = styled.View`
   flex: 1;
   background-color: #f4f6f6;
@@ -18,6 +19,15 @@ export const ContainerDown = styled.View`
   flex-direction: column;
 `;
 
+export const OtherContainer = styled.View`
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  align-self: center;
+  margin-top: 80px;
+  flex-direction: row;
+`;
+
 export const TextQuestion = styled.Text`
   justify-content: center;
   align-items: center;
@@ -31,8 +41,8 @@ export const TextQuestion = styled.Text`
 
 export const FirstOptionCard = styled.TouchableOpacity`
   align-self: center;
-  margin-top: 60px;
-  background-color: #ffff;
+  margin-top: 80px;
+  background-color: #a4aca4;
   flex-direction: row;
   height: 70px;
   width: 350px;
@@ -42,8 +52,8 @@ export const FirstOptionCard = styled.TouchableOpacity`
 
 export const SecondOptionCard = styled.TouchableOpacity`
   align-self: center;
-  margin-top: 50px;
-  background-color: #656d74;
+  margin-top: 100px;
+  background-color: #d4c289;
   flex-direction: row;
   height: 70px;
   width: 350px;
@@ -53,9 +63,8 @@ export const SecondOptionCard = styled.TouchableOpacity`
 
 export const ThirdOptionCard = styled.TouchableOpacity`
   align-self: center;
-  margin-top: 50px;
-  margin-bottom: 10px;
-  background-color: #bfa780;
+  margin-top: 100px;
+  background-color: #a0a0a0;
   flex-direction: row;
   height: 70px;
   width: 350px;
@@ -65,38 +74,48 @@ export const ThirdOptionCard = styled.TouchableOpacity`
 
 export const FirstText = styled.Text`
   align-self: center;
-  margin-left: 15px;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: bold;
   color: #62676d;
 `;
 
 export const CarOneOp = styled.Image.attrs({
-  source: require("../../../Images/CarOneOp.png"),
-  resizeMode: "stratch",
+  source: require("../../../Images/Platinum.png"),
   position: "absoliute",
 })`
-  bottom: 55px;
-  width: 60%;
-  height: 230%;
-`;
-
-export const SecondText = styled.Text`
-  align-self: center;
-  margin-left: 15px;
-  font-size: 15px;
-  font-weight: bold;
-  color: #ffff;
+bottom: 80px;
+width: 40%;
+height: 200%;
 `;
 
 export const CarSecOp = styled.Image.attrs({
-  source: require("../../../Images/CarSecOp.png"),
-  resizeMode: "stratch",
+  source: require("../../../Images/Gold.png"),
   position: "absoliute",
 })`
-  bottom: 55px;
-  width: 60%;
-  height: 230%;
+bottom: 80px;
+width: 40%;
+height: 200%;
+`;
+
+export const CarThirdOp = styled.Image.attrs({
+    source: require("../../../Images/Silver.png"),
+    position: "absoliute",
+  })`
+  bottom: 80px;
+  width: 40%;
+  height: 200%;
+  `;
+
+export const LoginButtom = styled.TouchableOpacity`
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 320px;
+  height: 50px;
+  border-radius: 13px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  background-color: #646d74;
 `;
 /*
 #93ABBF

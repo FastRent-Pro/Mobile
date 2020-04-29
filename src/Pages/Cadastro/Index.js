@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { KeyboardAvoidingView } from "react-native";
+import { ScrollView } from "react-native";
 
-import { TextButtom, TextButtomBlack } from "../../../Components/TextButtom";
+import { TextButtom, TextButtomGrey } from "../../../Components/TextButtom";
 import { LogoImage } from "../../../Components/Logo";
 
 import {
@@ -25,8 +26,8 @@ export default class Cadastro extends Component {
         <ContainerUp>
           <LogoImage />
         </ContainerUp>
-
         <ContainerDown>
+          <ScrollView>
           <TextCadastro>Cadastro</TextCadastro>
           <CadastroInput placeholder="Email"></CadastroInput>
           <CadastroInput placeholder="Senha"></CadastroInput>
@@ -40,8 +41,9 @@ export default class Cadastro extends Component {
           </FacebookButtom>
           <GoogleButtom>
             <GoogleLogo />
-            <TextButtomBlack>Conecte com o Google</TextButtomBlack>
+            <TextButtomGrey>Conecte com o Google</TextButtomGrey>
           </GoogleButtom>
+          </ScrollView>
         </ContainerDown>
       </Container>
     );
