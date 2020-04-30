@@ -10,19 +10,19 @@ export const PlatText = styled.Text`
 `;
 
 export const GoldText = styled.Text`
- margin-left: 225px;
- margin-bottom: 115px;
- font-family: Courier;
- font-size: 16px;
- font-weight: bold;
- color: #d4c48c;
+  margin-left: 225px;
+  margin-bottom: 115px;
+  font-family: Courier;
+  font-size: 16px;
+  font-weight: bold;
+  color: #d4c48c;
 `;
 
 export const SilverText = styled.Text`
- margin-left: 225px;
- margin-bottom: 115px;
- font-family: Courier;
- font-size: 16px;
- font-weight: bold;
- color: #a4a4a4
+  margin-left: 225px;
+  margin-bottom: 115px;
+  font-family: Courier;
+  font-size: 16px;
+  font-weight: bold;
+  color: #a4a4a4;
 `;

@@ -14,42 +14,42 @@ export const ContainerUp = styled.View`
 `;
 
 export const CameraImage = styled.Image.attrs({
-    source: require("../../../Images/camera.png"),
-    resizeMode: "contain",
-    position: "absolute",
-  })`
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    width: 70%;
-    height: 70%;
-  `;
+  source: require("../../../Images/camera.png"),
+  resizeMode: "contain",
+  position: "absolute",
+})`
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 70%;
+  height: 70%;
+`;
 
 export const PhotoContainer = styled.TouchableOpacity`
   justify-content: center;
   align-items: center;
   align-self: center;
   margin-top: 25px;
-  background-color: #A9A9A9;
+  background-color: #a9a9a9;
   flex-direction: row;
   height: 75px;
   width: 75px;
-  border-radius: 50%;;
+  border-radius: 50px;
 `;
 
 export const PicView = styled.View`
- justify-content: center;
- align-items: center;
- align-self: center;
- flex-direction: row;
- height: 75px;
- width: 75px;
- border-radius: 50%;;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  flex-direction: row;
+  height: 75px;
+  width: 75px;
+  border-radius: 50px;
 `;
 export const Pic = styled.Image`
- height: 75px;
- width: 75px;
- border-radius: 50%;;
+  height: 75px;
+  width: 75px;
+  border-radius: 50px;
 `;
 
 export const ContainerDown = styled.View`
@@ -59,11 +59,10 @@ export const ContainerDown = styled.View`
 `;
 
 export const FirstContainer = styled.View`
- margin-top: 20px;
- flex-direction: row;
- justify-content: space-evenly;
- align-items: 'center';
-
+  margin-top: 20px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 `;
 
 export const UsuarioInput = styled.TextInput.attrs({
@@ -82,19 +81,19 @@ export const UsuarioInput = styled.TextInput.attrs({
 `;
 
 export const OtherInput = styled.TextInput.attrs({
-    placeholderTextColor: "#62676d",
-    fontSize: 17,
-    fontWeight: "bold",
-  })`
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    margin-top: 15px;
-    width: 148px;
-    height: 50px;
-    border-bottom-width: 1px;
-    border-bottom-color: #62676d;
-  `;
+  placeholderTextColor: "#62676d",
+  fontSize: 17,
+  fontWeight: "bold",
+})`
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin-top: 15px;
+  width: 148px;
+  height: 50px;
+  border-bottom-width: 1px;
+  border-bottom-color: #62676d;
+`;
 
 export const ContinuarButtom = styled.TouchableOpacity`
   justify-content: center;

@@ -1,12 +1,11 @@
-import * as React from 'react';
-import {Image, ScrollView, View, Button } from 'react-native';
-import * as ImagePicker from 'expo-image-picker';
-import * as Permissions from 'expo-permissions';
-import * as Constants from 'expo-constants';
+import * as React from "react";
+import { Image, ScrollView, View, Button } from "react-native";
+import * as ImagePicker from "expo-image-picker";
+import * as Permissions from "expo-permissions";
+import * as Constants from "expo-constants";
 
 import { LogoImage } from "../../../Components/Logo";
-import { TextButtom} from "../../../Components/TextButtom";
-
+import { TextButtom } from "../../../Components/TextButtom";
 
 import {
   Container,
@@ -36,27 +35,25 @@ export default class Usuario extends React.Component {
           <LogoImage />
         </ContainerUp>
         <ContainerDown>
-            <ScrollView>
-          <PhotoContainer onPress={this._pickImage}>
-          <CameraImage />
-          <PicView>
-           {image && <Pic source={{ uri: image }}/>}
-          </PicView>
-          </PhotoContainer>
+          <ScrollView>
+            <PhotoContainer onPress={this._pickImage}>
+              <CameraImage />
+              <PicView>{image && <Pic source={{ uri: image }} />}</PicView>
+            </PhotoContainer>
             <UsuarioInput placeholder="Nome"></UsuarioInput>
             <UsuarioInput placeholder="Sobrenome"></UsuarioInput>
-          <FirstContainer>
-            <OtherInput placeholder="CEP"></OtherInput>
-            <OtherInput placeholder="CPF"></OtherInput>
-          </FirstContainer>
-          <FirstContainer>
-            <OtherInput placeholder="UF"></OtherInput>
-            <OtherInput placeholder="Cidade"></OtherInput>
-          </FirstContainer>
+            <FirstContainer>
+              <OtherInput placeholder="CEP"></OtherInput>
+              <OtherInput placeholder="CPF"></OtherInput>
+            </FirstContainer>
+            <FirstContainer>
+              <OtherInput placeholder="UF"></OtherInput>
+              <OtherInput placeholder="Cidade"></OtherInput>
+            </FirstContainer>
             <UsuarioInput placeholder="Endereço"></UsuarioInput>
-          <ContinuarButtom>
-            <TextButtom>Continuar</TextButtom>
-          </ContinuarButtom>
+            <ContinuarButtom>
+              <TextButtom>Continuar</TextButtom>
+            </ContinuarButtom>
           </ScrollView>
         </ContainerDown>
       </Container>
@@ -69,11 +66,13 @@ export default class Usuario extends React.Component {
   getPermissionAsync = async () => {
     if (Constants.platform.ios) {
       const { status } = await Permissions.askAsync(Permissions.CAMERA_ROLL);
-      if (status !== 'granted') {
-        alert('Sinto muito, nós precisamos de permissão para acessar suas fotos.');
+      if (status !== "granted") {
+        alert(
+          "Sinto muito, nós precisamos de permissão para acessar suas fotos."
+        );
       }
     }
-  }
+  };
   _pickImage = async () => {
     let result = await ImagePicker.launchImageLibraryAsync({
       mediaTypes: ImagePicker.MediaTypeOptions.All,

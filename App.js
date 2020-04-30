@@ -10,6 +10,8 @@ import Empresa from "./src/Pages/Empresa/Index";
 import Receber from "./src/Pages/Receber/Index";
 import Seguro from "./src/Pages/Seguro/Index";
 import Usuario from "./src/Pages/Usuario/Index";
+import InfoCarros from "./src/Pages/InfoCarros/Index";
+import SobreVeiculo from "./src/Pages/SobreVeiculo/Index";
 
 const Stack = createStackNavigator();
 
@@ -23,7 +25,9 @@ export default function App() {
         <Stack.Screen name="TipoCliente" component={TipoCliente} />
         <Stack.Screen name="Empresa" component={Empresa} />
         <Stack.Screen name="Receber" component={Receber} />
+        <Stack.Screen name="InfoCarros" component={InfoCarros} />
         <Stack.Screen name="Seguro" component={Seguro} />
+        <Stack.Screen name="SobreVeiculo" component={SobreVeiculo} />
         <Stack.Screen name="Usuario" component={Usuario} />
       </Stack.Navigator>
     </NavigationContainer>

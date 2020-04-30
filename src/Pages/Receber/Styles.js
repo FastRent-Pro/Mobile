@@ -45,7 +45,7 @@ export const FirstOptionCard = styled.TouchableOpacity`
 export const SecondOptionCard = styled.TouchableOpacity`
   align-self: center;
   margin-top: 50px;
-  background-color: #656d74;
+  background-color: #6495ed;
   flex-direction: row;
   height: 100px;
   width: 240px;
@@ -69,7 +69,6 @@ export const SwitchText = styled.Text`
   color: #62676d;
 `;
 
-
 export const SecondText = styled.Text`
   text-align: center;
   align-self: center;
@@ -86,24 +85,23 @@ export const LoginButtom = styled.TouchableOpacity`
   width: 320px;
   height: 50px;
   border-radius: 13px;
-  margin-top: 80px;
+  margin-top: 57px;
   margin-bottom: 30px;
   background-color: #646d74;
 `;
 
 export const SwitchContainer = styled.View`
- margin-top: 80px;
- text-align: left;
- flex-direction: row;
- justify-content: space-evenly;
- align-items: 'center';
-
+  margin-top: 80px;
+  text-align: left;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 `;
 
 export const FirstDivider = styled.View`
   align-self: center;
   width: 320px;
-  margin top: 85px;
+  margin-top: 85px;
   margin-bottom: -73px;
   border-bottom-width: 1px;
   border-bottom-color: #62676d;
@@ -112,7 +110,7 @@ export const FirstDivider = styled.View`
 export const SecDivider = styled.View`
   align-self: center;
   width: 320px;
-  margin-top: 6px
+  margin-top: 6px;
   border-bottom-width: 1px;
   border-bottom-color: #62676d;
 `;
