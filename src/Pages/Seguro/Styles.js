@@ -64,6 +64,7 @@ export const SecondOptionCard = styled.TouchableOpacity`
 export const ThirdOptionCard = styled.TouchableOpacity`
   align-self: center;
   margin-top: 100px;
+  margin-bottom: 10px;
   background-color: #a0a0a0;
   flex-direction: row;
   height: 70px;

@@ -44,7 +44,7 @@ export const TwoPics = styled.View`
   width: 360px;
 `;
 
-export const FirstPics = styled.View`
+export const FirstPics = styled.TouchableOpacity`
   flex: 1;
 
   justify-content: center;
@@ -53,6 +53,21 @@ export const FirstPics = styled.View`
   height: 100%;
   width: 100%;
   background-color: #dcdcdc;
+`;
+
+export const First = styled.View`
+  flex: 1;
+
+  justify-content: center;
+  margin-right: 1px;
+  margin-left: 1px;
+  height: 100%;
+  width: 100%;
+`;
+
+export const Pic = styled.Image`
+  height: 100%;
+  width: 100%;
 `;
 
 export const ThreePics = styled.View`
@@ -71,6 +86,7 @@ export const ThreePics = styled.View`
 export const CarImage = styled.Image.attrs({
   source: require("../../../Images/imageCar.png"),
   resizeMode: "contain",
+  position: "absolute",
 })`
   justify-content: center;
   align-items: center;
@@ -110,6 +126,7 @@ export const ContinuarButtom = styled.TouchableOpacity`
   justify-content: center;
   align-items: center;
   align-self: center;
+  margin-bottom: 10px;
   width: 320px;
   height: 50px;
   border-radius: 13px;

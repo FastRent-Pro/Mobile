@@ -12,6 +12,7 @@ import Seguro from "./src/Pages/Seguro/Index";
 import Usuario from "./src/Pages/Usuario/Index";
 import InfoCarros from "./src/Pages/InfoCarros/Index";
 import SobreVeiculo from "./src/Pages/SobreVeiculo/Index";
+import Documentos from "./src/Pages/Documentos/Index";
 
 const Stack = createStackNavigator();
 
@@ -29,6 +30,7 @@ export default function App() {
         <Stack.Screen name="Seguro" component={Seguro} />
         <Stack.Screen name="SobreVeiculo" component={SobreVeiculo} />
         <Stack.Screen name="Usuario" component={Usuario} />
+        <Stack.Screen name="Documentos" component={Documentos} />
       </Stack.Navigator>
     </NavigationContainer>
   );

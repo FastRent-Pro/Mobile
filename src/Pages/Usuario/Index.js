@@ -36,7 +36,7 @@ export default class Usuario extends React.Component {
         </ContainerUp>
         <ContainerDown>
           <ScrollView>
-            <PhotoContainer onPress={this._pickImage}>
+            <PhotoContainer onPress={this.pickImage}>
               <CameraImage />
               <PicView>{image && <Pic source={{ uri: image }} />}</PicView>
             </PhotoContainer>
@@ -51,7 +51,7 @@ export default class Usuario extends React.Component {
               <OtherInput placeholder="Cidade"></OtherInput>
             </FirstContainer>
             <UsuarioInput placeholder="Endereço"></UsuarioInput>
-            <ContinuarButtom>
+            <ContinuarButtom onPress={() => navigate("Documentos")}>
               <TextButtom>Continuar</TextButtom>
             </ContinuarButtom>
           </ScrollView>
@@ -73,7 +73,7 @@ export default class Usuario extends React.Component {
       }
     }
   };
-  _pickImage = async () => {
+  pickImage = async () => {
     let result = await ImagePicker.launchImageLibraryAsync({
       mediaTypes: ImagePicker.MediaTypeOptions.All,
       allowsEditing: true,

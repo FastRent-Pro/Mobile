@@ -33,7 +33,7 @@ export default class TipoCliente extends Component {
             <FirstText>Alugar os Melhores Carros</FirstText>
             <CarOneOp />
           </FirstOptionCard>
-          <SecondOptionCard onPress={() => navigate("Seguro")}>
+          <SecondOptionCard onPress={() => navigate("Usuario")}>
             <SecondText>
               Anunciar Meu Carro e Receber{"\n"}as Melhores Ofertas
             </SecondText>
