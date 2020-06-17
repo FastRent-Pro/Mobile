@@ -14,6 +14,7 @@ import {
   ContainerZero,
 } from "./Styles";
 
+
 export default class InfoCarros extends Component {
   render() {
     const { navigate } = this.props.navigation;

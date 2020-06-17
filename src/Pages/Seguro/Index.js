@@ -35,7 +35,7 @@ export default class Seguro extends Component {
 
         <ContainerDown>
           <ScrollView>
-            <TextQuestion>Qual plano de seguro você deseja?</TextQuestion>
+            <TextQuestion>Qual plano de seguro{"\n"}         você deseja?</TextQuestion>
             <FirstOptionCard onPress={() => navigate("SobreVeiculo")}>
               <OtherContainer>
                 <PlatText>Platinum</PlatText>

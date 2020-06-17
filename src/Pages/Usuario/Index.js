@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Image, ScrollView, View, Button } from "react-native";
+import {ScrollView} from "react-native";
 import * as ImagePicker from "expo-image-picker";
 import * as Permissions from "expo-permissions";
 import * as Constants from "expo-constants";

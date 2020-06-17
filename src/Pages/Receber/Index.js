@@ -54,7 +54,7 @@ export default class Receber extends Component {
             />
             </SwitchContainer> 
             <SecDivider /> 
-          <LoginButtom>
+          <LoginButtom onPress={() => navigate("Diaria")}>
             <TextButtom>Continuar</TextButtom>
           </LoginButtom>
           </ScrollView>
