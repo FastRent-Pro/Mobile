@@ -12,6 +12,12 @@ import {
   CarButtom,
   Header,
   Footer,
+  LeftNavButtom,
+  MiddletNav,
+  LogoHome,
+  LogoSearch,
+  RightNav,
+  LogoProfile,
 } from "./Styles";
 
 export default class Mapa extends Component {
@@ -31,7 +37,17 @@ export default class Mapa extends Component {
             <LogoImage />
           </Header>
 
-          <Footer></Footer>
+          <Footer>
+            <LeftNavButtom>
+              <LogoHome />
+            </LeftNavButtom>
+            <MiddletNav>
+              <LogoSearch />
+            </MiddletNav>
+            <RightNav>
+              <LogoProfile />
+            </RightNav>
+          </Footer>
 
           <MapView.Marker
             coordinate={{ latitude: -1.456652, longitude: -48.485174 }}
