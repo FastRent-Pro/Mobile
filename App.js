@@ -14,6 +14,7 @@ import InfoCarros from "./src/Pages/InfoCarros/Index";
 import SobreVeiculo from "./src/Pages/SobreVeiculo/Index";
 import Documentos from "./src/Pages/Documentos/Index";
 import Diaria from "./src/Pages/Diaria/Index";
+import Mapa from "./src/Pages/Mapa/Index";
 
 const Stack = createStackNavigator();
 
@@ -21,6 +22,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={{ headerShown: false }}>
+	<Stack.Screen name="Mapa" component={Mapa} />
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="Cadastro" component={Cadastro} />
