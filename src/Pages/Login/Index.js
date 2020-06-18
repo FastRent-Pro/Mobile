@@ -20,6 +20,7 @@ import {
 
 export default class Login extends Component {
   render() {
+    const { navigate } = this.props.navigation;
     return (
       <Container>
         <ContainerUp>
@@ -32,7 +33,7 @@ export default class Login extends Component {
           <CadastroInput placeholder="Email"></CadastroInput>
           <CadastroInput placeholder="Senha"></CadastroInput>
           <LeftText>Esqueceu a senha?</LeftText>
-          <LoginButtom>
+          <LoginButtom onPress={() => navigate("Mapa")}>
             <TextButtom>Entrar</TextButtom>
           </LoginButtom>
           <FacebookButtom>

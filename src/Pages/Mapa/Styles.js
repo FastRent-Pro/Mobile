@@ -89,6 +89,7 @@ export const LogoProfile = styled.Image.attrs({
 export const CarButtom = styled.TouchableOpacity`
   height: 40px;
   width: 40px;
+  position: absolute;
 `;
 
 export const LogoPlat = styled.ImageBackground.attrs({

@@ -19,9 +19,11 @@ import {
   RightNav,
   LogoProfile,
 } from "./Styles";
+import { TouchableOpacity } from "react-native-gesture-handler";
 
 export default class Mapa extends Component {
-  render() {
+  render() { 
+    const { navigate } = this.props.navigation;
     return (
       <Container>
         <MapView
@@ -38,7 +40,7 @@ export default class Mapa extends Component {
           </Header>
 
           <Footer>
-            <LeftNavButtom>
+            <LeftNavButtom onPress={() => navigate("Home")}>
               <LogoHome />
             </LeftNavButtom>
             <MiddletNav>
@@ -52,7 +54,7 @@ export default class Mapa extends Component {
           <MapView.Marker
             coordinate={{ latitude: -1.456652, longitude: -48.485174 }}
           >
-            <CarButtom>
+            <CarButtom onPress={() => navigate("Carro")}>
               <LogoPlat />
             </CarButtom>
           </MapView.Marker>
@@ -60,7 +62,7 @@ export default class Mapa extends Component {
           <MapView.Marker
             coordinate={{ latitude: -1.462492, longitude: -48.489878 }}
           >
-            <CarButtom>
+            <CarButtom onPress={() => navigate("Carro")}>
               <LogoSilver />
             </CarButtom>
           </MapView.Marker>
@@ -68,7 +70,7 @@ export default class Mapa extends Component {
           <MapView.Marker
             coordinate={{ latitude: -1.467124, longitude: -48.468715 }}
           >
-            <CarButtom>
+            <CarButtom onPress={() => navigate("Carro")}>
               <LogoGold />
             </CarButtom>
           </MapView.Marker>
@@ -76,7 +78,7 @@ export default class Mapa extends Component {
           <MapView.Marker
             coordinate={{ latitude: -1.436268, longitude: -48.490236 }}
           >
-            <CarButtom>
+            <CarButtom onPress={() => navigate("Carro")}>
               <LogoPlat />
             </CarButtom>
           </MapView.Marker>
@@ -84,7 +86,7 @@ export default class Mapa extends Component {
           <MapView.Marker
             coordinate={{ latitude: -1.44599, longitude: -48.45437 }}
           >
-            <CarButtom>
+            <CarButtom onPress={() => navigate("Carro")}>
               <LogoPlat />
             </CarButtom>
           </MapView.Marker>
@@ -92,7 +94,7 @@ export default class Mapa extends Component {
           <MapView.Marker
             coordinate={{ latitude: -1.433785, longitude: -48.468085 }}
           >
-            <CarButtom>
+            <CarButtom onPress={() => navigate("Carro")}>
               <LogoSilver />
             </CarButtom>
           </MapView.Marker>
@@ -100,7 +102,7 @@ export default class Mapa extends Component {
           <MapView.Marker
             coordinate={{ latitude: -1.439969, longitude: -48.479809 }}
           >
-            <CarButtom>
+            <CarButtom onPress={() => navigate("Carro")}>
               <LogoGold />
             </CarButtom>
           </MapView.Marker>
@@ -108,7 +110,7 @@ export default class Mapa extends Component {
           <MapView.Marker
             coordinate={{ latitude: -1.451248, longitude: -48.500556 }}
           >
-            <CarButtom>
+            <CarButtom onPress={() => navigate("Carro")}>
               <LogoGold />
             </CarButtom>
           </MapView.Marker>
@@ -116,7 +118,7 @@ export default class Mapa extends Component {
           <MapView.Marker
             coordinate={{ latitude: -1.473614, longitude: -48.485973 }}
           >
-            <CarButtom>
+            <CarButtom onPress={() => navigate("Carro")}>
               <LogoGold />
             </CarButtom>
           </MapView.Marker>
@@ -124,7 +126,7 @@ export default class Mapa extends Component {
           <MapView.Marker
             coordinate={{ latitude: -1.46623, longitude: -48.48312 }}
           >
-            <CarButtom>
+            <CarButtom onPress={() => navigate("Carro")}>
               <LogoSilver />
             </CarButtom>
           </MapView.Marker>
@@ -132,7 +134,7 @@ export default class Mapa extends Component {
           <MapView.Marker
             coordinate={{ latitude: -1.466217, longitude: -48.493801 }}
           >
-            <CarButtom>
+            <CarButtom onPress={() => navigate("Carro")}>
               <LogoPlat />
             </CarButtom>
           </MapView.Marker>
@@ -140,7 +142,7 @@ export default class Mapa extends Component {
           <MapView.Marker
             coordinate={{ latitude: -1.451568, longitude: -48.471227 }}
           >
-            <CarButtom>
+            <CarButtom onPress={() => navigate("Carro")}>
               <LogoSilver />
             </CarButtom>
           </MapView.Marker>
@@ -148,7 +150,7 @@ export default class Mapa extends Component {
           <MapView.Marker
             coordinate={{ latitude: -1.44705, longitude: -48.491195 }}
           >
-            <CarButtom>
+            <CarButtom onPress={() => navigate("Carro")}>
               <LogoSilver />
             </CarButtom>
           </MapView.Marker>
