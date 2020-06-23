@@ -43,7 +43,7 @@ export default class Mapa extends Component {
             <LeftNavButtom onPress={() => navigate("Home")}>
               <LogoHome />
             </LeftNavButtom>
-            <MiddletNav>
+            <MiddletNav onPress={() => navigate("Pesquisa")}>
               <LogoSearch />
             </MiddletNav>
             <RightNav>

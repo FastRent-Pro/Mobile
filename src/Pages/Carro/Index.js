@@ -22,7 +22,7 @@ import {
 
 import { TextButtom } from "../../../Components/TextButtom";
 
-export default class Home extends Component {
+export default class Carro extends Component {
   render() {
     const { navigate } = this.props.navigation;
     return (

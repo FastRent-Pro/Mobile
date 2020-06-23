@@ -16,6 +16,7 @@ import Documentos from "./src/Pages/Documentos/Index";
 import Diaria from "./src/Pages/Diaria/Index";
 import Mapa from "./src/Pages/Mapa/Index";
 import Carro from "./src/Pages/Carro/Index";
+import Pesquisa from "./src/Pages/Pesquisa/Index";
 
 const Stack = createStackNavigator();
 
@@ -37,6 +38,7 @@ export default function App() {
         <Stack.Screen name="Documentos" component={Documentos} />
         <Stack.Screen name="Diaria" component={Diaria} />
         <Stack.Screen name="Carro" component={Carro} />
+        <Stack.Screen name="Pesquisa" component={Pesquisa} />
       </Stack.Navigator>
     </NavigationContainer>
   );

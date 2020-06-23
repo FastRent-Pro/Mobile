@@ -18,7 +18,7 @@ import {
   Texty,
 } from "./Styles";
 
-export default class Usuario extends React.Component {
+export default class Diaria extends React.Component {
     constructor(props){
      super(props);
      this.state = {
