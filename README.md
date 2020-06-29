@@ -20,11 +20,12 @@ Seu carro dos sonhos está à um click de distância.
 
 - Etapas de Cadastro de um Carro e Opções de recebimento do Veículo e valor do aluguel:
 
-![FastRent Cadastro Carro](https://user-images.githubusercontent.com/36683675/86050035-9259b700-ba29-11ea-8709-52f86543804f.png) ![FastRent Adcionar Carro](https://user-images.githubusercontent.com/36683675/86053273-9fc57000-ba2e-11ea-83e2-1fad9d3e2fbf.png) ![FastRent Adcionar Carro Fotos](https://user-images.githubusercontent.com/36683675/86053276-a0f69d00-ba2e-11ea-9839-a86b56fbcca7.png) ![FastRent Opções de recebimento](https://user-images.githubusercontent.com/36683675/86050021-8ff75d00-ba29-11ea-83f6-e5c40192078e.png) ![FastRent Cadastro Banco](https://user-images.githubusercontent.com/36683675/86050034-91c12080-ba29-11ea-9b1b-80caa758bb08.png)
+![FastRent Cadastro Carro](https://user-images.githubusercontent.com/36683675/86050035-9259b700-ba29-11ea-8709-52f86543804f.png) ![rsz_fastrent_adcionar_carro](https://user-images.githubusercontent.com/36683675/86054137-fe3f1e00-ba2f-11ea-8f77-a743b7f7c9ee.png) ![rsz_fastrent_adcionar_carro_fotos](https://user-images.githubusercontent.com/36683675/86054142-ff704b00-ba2f-11ea-950d-f2131f6a99a4.png) ![FastRent Opções de recebimento](https://user-images.githubusercontent.com/36683675/86050021-8ff75d00-ba29-11ea-83f6-e5c40192078e.png) ![FastRent Cadastro Banco](https://user-images.githubusercontent.com/36683675/86050034-91c12080-ba29-11ea-9b1b-80caa758bb08.png)
 
 - Mapa de Busca com carros de diversos tipos de planos disponíveis para aluguel, assim como opções de busca para os mais próximo de você:
 
-![FastRent Mapa](https://user-images.githubusercontent.com/36683675/86053282-a2c06080-ba2e-11ea-834c-6faa4bcca2ef.png) ![FastRent Busca](https://user-images.githubusercontent.com/36683675/86053287-a3f18d80-ba2e-11ea-82b6-3b44915b25f6.jpg)
+![rsz_2fastrent_mapa](https://user-images.githubusercontent.com/36683675/86054144-0008e180-ba30-11ea-9e0d-efa7371b5ada.png) ![rsz_fastrent_busca](https://user-images.githubusercontent.com/36683675/86054145-00a17800-ba30-11ea-8ad6-39de295654e1.png)
+
 
 
 
