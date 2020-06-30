@@ -1,3 +1,6 @@
+![favicon-96x96](https://user-images.githubusercontent.com/36683675/86124258-320e5800-bab1-11ea-91e8-84134d7c0ee8.png)
+
+
 # FastRent Aluguel de Carros
 
 FastRent vem com a proposta de facilitar o aluguel de automoveis, dispondo de múltiplas opções de carros para você que procura o melhor custo benefício do mercado ou que está atrás de renda extra.
